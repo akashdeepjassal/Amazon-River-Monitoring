@@ -13,6 +13,7 @@ We have also included a set of JPG chips for reference and practice. These chips
 Above: A map of the Amazon basin.
 
 Labeling Process and Data Quality
+
 <img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/chipdesc.jpg">
 
 To assemble this data set we set out with an initial specification of the phenomena we wished to find and include in the final data set. From that initial specification we created a "wish list" of scenes where we included a ballpark number of scenes required to get a sufficient number of chips to demonstrate the phenomena. This initial set of scenes was painstakingly collected by our Berlin team using Planet Explorer. All told this initial set of scenes numbered approximately 1600 and covered a land area of thirty million hectares.
@@ -40,17 +41,23 @@ Clouds are a major challenge for passive satellite imaging, and daily cloud cove
 Examples of Cloudy Scenes
 
 <img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/cloudy_1.jpg">
+
 <img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/cloudy_1.jpg">
 
 Cloudy Scene enter image description here
 
-Examples of Partly Cloudy Scenes
 <img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/pc1.jpg">
+
+Examples of Partly Cloudy Scenes
+
 <img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/pc2.jpg">
+
 Partly Cloudy Scene Partly Cloudy Scene
 
-Examples of Hazy Scenes
 <img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/haze1.jpg">
+
+Examples of Hazy Scenes
+
 <img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/haze2.jpg">
 
 Partly Cloudy Scene Partly Cloudy Scene
@@ -62,23 +69,33 @@ The common labels in this data set are rainforest, agriculture, rivers, towns/ci
 Primary Rain Forest
 
 The overwhelming majority of the data set is labeled as "primary", which is shorthand for primary rainforest, or what is known colloquially as virgin forest. Generally speaking, the "primary" label was used for any area that exhibited dense tree cover.This Mongobay article gives a concise description of the difference between primary and secondary rainforest, but distinguishing between the two is difficult solely using satellite imagery. This is particularly true in older "secondary" forests. Primary Rainforest
+
 <img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/primary.jpg">
+
 Above: Approximately 25,000 acres of untouched primary rainforest.
 
 Water (Rivers & Lakes)
 
 Rivers, reservoirs, and oxbow lakes are important features of the Amazon basin, and we used the water tag as a catch-all term for these features. Rivers in the Amazon basin often change course and serve as highways deep into the forest. The changing course of these rivers creates new habitat but can also strand endangered Amazon River Dolphins. River
+
 <img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/river.jpg">
+
 Above: A larger and slower river with significant sand bars. The brown color comes from significant silt deposits. River
+
 <img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/river2.jpg">
+
 Above: A small tributary joins a larger river system. The deep brown color of the river is noticeable near the bright sand bars.
 
 Habitation
 
 The habitation class label was used for chips that appeared to contain human homes or buildings. This includes anything from dense urban centers to rural villages along the banks of rivers. Small, single-dwelling habitations are often difficult to spot but usually appear as clumps of a few pixels that are bright white. Habitation
+
 <img src="gle2.blob.core.windows.net/competitions/kaggle/6322/media/habitation1.jpg">
+
 Above: A larger city in the Amazon basin. Habitation
+
 <img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/habitation2.jpg">
+
 Above: A large city.
 
 Agriculture
@@ -91,9 +108,13 @@ Sugarcane in Bolivia
 Papaya cultivation destroying Peruvian Rainforest
 Harvests in Rio Grande do Sul
 Agriculture 1
+
 <img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/agg1.jpg">
+
 Above: An agricultural area that showing the end state of "fishbone" deforestation. Agriculture 2
+
 <img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/agg2.jpg">
+
 Above: A newer agricultural area showing "fishbone" deforestation.
 
 Road
@@ -102,25 +123,36 @@ Roads are important for transportation in the Amazon but they also serve as driv
 
 More information: - Roads in the Amazon - NASA article on Fishbone Deforestation
 Road 1
+
 <img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/road.jpg">
+
 Above: classic "Fishbone" deforestation following a road. Road 2
+
 <img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/road2.jpg">
+
 Above: roads snake out of a small town in the Amazon.
 
 Cultivation
 
 Shifting cultivation is a subset of agriculture that is very easy to see from space, and occurs in rural areas where individuals and families maintain farm plots for subsistence. This article by MongaBay by MongaBay gives a detailed overview of the practice. This type of agriculture is often found near smaller villages along major rivers, and at the outskirts of agricultural areas. It typically relies on non-mechanized labor, and covers relatively small areas. cultivation
+
 <img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/cultivation.jpg">
+
 Above: A zoomed-in area showing cultivation (right side of river) cultivation
+
 <img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/cultivation2.jpg">
 Above: A zoomed-in area showing cultivation and some selective logging. Dark areas indicate recent slash/burn activity
 
 Bare Ground
 
 Bare ground is a catch-all term used for naturally occuring tree free areas that aren't the result of human activity. Some of these areas occur naturally in the Amazon, while others may be the result from the source scenes containing small regions of biome much similar to the pantanal or cerrado. bare ground
+
 <img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/bare.jpg">
+
 Above: a naturally occuring bare area in the cerrado. bare ground
+
 <img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/bare2.jpg">
+
 Above: a naturally occuring bare area in the cerrado.
 
 Less Common Labels
@@ -128,25 +160,37 @@ Less Common Labels
 Slash and Burn
 
 Slash-and-burn agriculture can be considered to be a subset of the shifting cultivation label and is used for areas that demonstrate recent burn events. This is to say that the shifting cultivation patches appear to have dark brown or black areas consistent with recent burning.This NASA Earth Observatory article gives a good primer on the practice as does this wikipedia article. Above: ground view of slash and burn agriculture. By Alzenir Ferreira de Souza slash burn
+
 <img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/slashburn1.jpg">
+
 Above: A zoomed-in view of an area with shifting cultivation with evidence of a recent fire. slash burn
+
 <img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/slashburn2.jpg">
+
 Above: A zoomed-in view of an area with shifting cultivation and evidence of a recent fire.
 
 Selective Logging
 
 The selective logging label is used to cover the practice of selectively removing high value tree species from the rainforest (such as teak and mahogany). From space this appears as winding dirt roads adjacent to bare brown patches in otherwise primary rain forest. This Mongabay Article covers the details of this process. Global Forest Watch is another great resource for learning about deforestation and logging. logging
+
 <img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/logging.jpg">
+
 Above: The brown lines on the right of this scene are a logging road. Note the small brown dots in the area around the road. logging
+
 <img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/logging1.jpg">
+
 Above: A zoomed image of logging roads and selective logging. logging
+
 <img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/logging2.jpg">
+
 Above: A zoomed image of logging roads and selective logging.
 
 Blooming
 
 Blooming is a natural phenomenon found in the Amazon where particular species of flowering trees bloom, fruit, and flower at the same time to maximize the chances of cross pollination. These trees are quite large and these events can be seen from space. Planet recently captured a similar event in Panama. bloom
+
 <img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/bloom.jpg">
+
 Above: a zoomed and contrast enhanced of a bloom event in the Amazon basin. The red arrows point to a few specific trees. The canopies of these trees can be over 30m across (~100ft).
 
 Conventional Mining
@@ -154,7 +198,9 @@ Conventional Mining
 There are a number of large conventional mines in the Amazon basin and the number is steadily growning. This label is used to classify large-scale legal mining operations.
 
 mine
+
 <img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/mine1.jpg">
+
 Above: A conventional mine in the Amazon.
 
 "Artisinal" Mining
@@ -166,9 +212,13 @@ Images of artisanal mining in Peru
 MAAP Amazon Report #36
 MAAP Amazon Report #49
 Global Forest Watch article on Mining artisanal mine
+
 <img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/artmine1.jpg">
+
 Above: A zoomed image of an artisanal mine in Peru. artisanal mine
+
 <img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/artmine2.jpg">
+
 Above: A zoomed image of an artisanal mine in Peru.
 
 Blow Down
@@ -179,5 +229,7 @@ MAAP #55: Blow Down Report in Peru Detailed
 MAAP #54: Blow Down Report in Peru
 National Geographic Article on Blow Down
 Nature article on the size and frequency of blow down events. blow down
+
 <img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/blowdown.jpg">
+
 Above: A recent blow down event in the Amazon circled in red. Note the light green of the forest understory and the pattern of tree loss.
