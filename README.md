@@ -8,7 +8,7 @@ For purposes of the competition we have stripped out all of the geotiff informat
 
 We have also included a set of JPG chips for reference and practice. These chips were processed using the Planet visual product processor and then saved as jpg chips. These chips are provided as a reference to the scene content, but we expect that the additional information in the tif chips will be more fruitful for the competition.
 
-![myimage-alt-tag] (https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/Amazonriverbasin_basemap.png)
+![A map of the Amazon basin.] (https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/Amazonriverbasin_basemap.png)
 
 Above: A map of the Amazon basin.
 
