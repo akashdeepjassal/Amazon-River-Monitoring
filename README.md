@@ -26,7 +26,7 @@ Moreover, the commonly prescribed approach for labeling data in the GIS communit
 Class Labels
 The class labels for this task were chosen in collaboration with Planet's Impact team and represent a reasonable subset of phenomena of interest in the Amazon basin. The labels can broadly be broken into three groups: atmospheric conditions, common land cover/land use phenomena, and rare land cover/land use phenomena. Each chip will have one and potentially more than one atmospheric label and zero or more common and rare labels. Chips that are labeled as cloudy should have no other labels, but there may be labeling errors. Sample chips with labels
 
-<img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/chips.jpg>
+<img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/chips.jpg">
 
 
 Above: Sample chips and their labels.
@@ -62,7 +62,7 @@ The common labels in this data set are rainforest, agriculture, rivers, towns/ci
 Primary Rain Forest
 
 The overwhelming majority of the data set is labeled as "primary", which is shorthand for primary rainforest, or what is known colloquially as virgin forest. Generally speaking, the "primary" label was used for any area that exhibited dense tree cover.This Mongobay article gives a concise description of the difference between primary and secondary rainforest, but distinguishing between the two is difficult solely using satellite imagery. This is particularly true in older "secondary" forests. Primary Rainforest
-<img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/primary.jpg"
+<img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/primary.jpg">
 Above: Approximately 25,000 acres of untouched primary rainforest.
 
 Water (Rivers & Lakes)
