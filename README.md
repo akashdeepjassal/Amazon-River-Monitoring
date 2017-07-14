@@ -90,7 +90,7 @@ Habitation
 
 The habitation class label was used for chips that appeared to contain human homes or buildings. This includes anything from dense urban centers to rural villages along the banks of rivers. Small, single-dwelling habitations are often difficult to spot but usually appear as clumps of a few pixels that are bright white. Habitation
 
-<img src="https://gle2.blob.core.windows.net/competitions/kaggle/6322/media/habitation1.jpg">
+<img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/6322/media/habitation1.jpg">
 
 Above: A larger city in the Amazon basin. Habitation
 
